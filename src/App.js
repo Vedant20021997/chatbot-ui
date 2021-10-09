@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Chat from './components/Chat/Chat';
+import Chat from './components/Chat/Chatbot';
 import Landing from './components/Landing/Landing';
 import './App.css';
 

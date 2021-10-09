@@ -8,15 +8,15 @@ import Typography from '@mui/material/Typography';
 
 const Dwight1 = () => {
   return (
-    <Card sx={{ minWidth: '20vw', minHeight: '40vh', backgroundColor: 'green', borderRadius: '0 0 1rem 1rem', cursor: 'pointer', ":hover": {transform: 'scale(1.1)'}}}>
+    <Card sx={{backgroundColor: 'gray', borderRadius: '1rem 1rem', cursor: 'pointer', ":hover": {transform: 'scale(1.1)'}}}>
       <CardMedia
         component="img"
         height="auto"
-        image="logo192.png"
+        image="dwight.jpg"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Michael Scott
+          Dwight Schrute
         </Typography>
         <Typography variant="body2" color="text.secondary">
           Built using model 1
