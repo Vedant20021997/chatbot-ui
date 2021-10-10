@@ -19,7 +19,7 @@ const Dwight2 = () => {
         Dwight Schrute
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Built using model 1
+          Built using model 2
         </Typography>
       </CardContent>
       {/* <CardActions>

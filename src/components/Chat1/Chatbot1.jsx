@@ -9,7 +9,7 @@ import "./Chatbot.css";
 import Header from "./Header";
 
 
-const Chatbot = () => {
+const Chatbot1 = (props) => {
   const [messages, setMessages] = useState([]);
 
   useEffect(() => {
@@ -29,7 +29,7 @@ const Chatbot = () => {
       <UserMessage key={messages.length + 1} text={text} />,
       <BotMessage
         key={messages.length + 2}
-        fetchMessage={async () => await API2.GetChatbotResponse2(text)}
+        fetchMessage={async () => await API2.Michael1(text)}
       />
     );
     setMessages(newMessages);
@@ -37,11 +37,11 @@ const Chatbot = () => {
 
   return (
     <div className="chatbot">
-      <Header />
+      <Header/>
       <Messages messages={messages} />
       <Input onSend={send} />
     </div>
   );
 }
 
-export default Chatbot;
+export default Chatbot1;

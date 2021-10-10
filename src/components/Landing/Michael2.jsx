@@ -19,7 +19,7 @@ const Michael2 = () => {
           Michael Scott
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Built using model 1
+          Built using model 2
         </Typography>
       </CardContent>
       {/* <CardActions>

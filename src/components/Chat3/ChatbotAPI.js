@@ -12,19 +12,20 @@ export const API = {
     }
   };
   
-  export const API2 = {
-    GetChatbotResponse2: message => {
-      return axios({
-        method: 'post', //you can set what request you want to be
-        url: 'http://localhost:5000/test',
-        data: {message: message},
-        headers: {
+  
+export const API2 = {
+  Dwight1: message => {
+    return axios({
+      method: 'post', //you can set what request you want to be
+      url: 'http://localhost:5000/test3',
+      data: {message: message},
+      headers: {
           // 'Access-Control-Allow-Origin': '*'
-        }
-      })
-      .then((response) => {
-        console.log(response);
-        return response.data;
-      })
-    }
-  };
+       }
+    })
+    .then((response) => {
+      console.log(response);
+      return response.data;
+     })
+  }
+};
