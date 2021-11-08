@@ -8,18 +8,18 @@ import Typography from '@mui/material/Typography';
 
 const Dwight1 = () => {
   return (
-    <Card sx={{backgroundColor: 'gray', borderRadius: '1rem 1rem', cursor: 'pointer', ":hover": {transform: 'scale(1.1)'}}}>
+    <Card sx={{minWidth: '15vw', width: '20vw', maxHeight: '60vh', backgroundColor: 'gray', borderRadius: '1rem 1rem', cursor: 'pointer', ":hover": {transform: 'scale(1.1)'}}}>
       <CardMedia
         component="img"
-        height="auto"
-        image="dwight.jpg"
+        height="300vh"
+        image="dwight_schrute.jpg"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           Dwight Schrute
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Built using model 1
+          Built using DialoGPT
         </Typography>
       </CardContent>
       {/* <CardActions>
